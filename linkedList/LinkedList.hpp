@@ -41,7 +41,6 @@ int LinkedList<T>::size() const
 			temp = temp2->getNext();
 			temp2 = temp;
 		}
-		m_size = count; 
 		return(count);
 	}
 }
